@@ -9,17 +9,34 @@ background-attachment: fixed;
 font-family: 'Metrophobic', sans-serif;
 }
 
-header img {max-width: 100%; max-height: 100%;margin-left: 2px;}
+
+html 
+{
+font-size:62.5%;
+}
+
+header img {max-width: 100%; max-height: 100%;margin-left: 2px;margin-bottom: 20px;}
 
 ul
 {
-list-style-image:url('../img/files.png');
+list-style-image:url('../img/files_black.png');
 } 
 
-li {margin:5px 0 5px 0;}
+li {margin:5px 0 5px 0;font-size: 15px; font-size: 1.5rem;}
 li a {text-decoration: none;color:#000;background-color: #e6faff;padding: 2px;}
-
+li a:hover {background-color:#fcfe04;}
 footer a
 {text-decoration: none;color: #000;
 border-bottom: 1px dotted #000;}
-footer {margin-left: 24px;}
+footer {margin:20px 0 0 15px;font-size: 14px;font-size: 1.4rem;}
+
+.number a, .text-pink {font-weight: bold;}
+.number li a {background-color: transparent}
+.number li {font-size: 15px;font-size: 1.5rem;}
+.donwload a {background-color:transparent;padding:4px;text-decoration: none;color: #000;}
+.number li a:hover {background-color: #fcfe04;padding:2px;}
+.donwload {margin:10px 0 0 14px;font-size: 15px;font-size: 1.5rem;text-transform: capitalize;}
+h1 a {color: #000;text-decoration: none;}
+h1 {font-size:16px;font-size: 1.6rem; text-transform: uppercase;margin: 0px 0 20px 16px;border-bottom: 1px dotted #000;}
+
+audio {margin: 20px 0 0 15px;}
