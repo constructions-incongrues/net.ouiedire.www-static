@@ -1,0 +1,17 @@
+
+body 
+{
+background-color: #FFF9FF;
+background-image: url(../img/pattern.gif);
+background-repeat: repeat; 
+background-attachment: fixed;
+}
+
+dt:after { content:" : "; } 
+header img {max-width: 100%; max-height: 100%;}
+header {text-align: center;}
+
+.grid50
+{
+text-align: center;
+}
