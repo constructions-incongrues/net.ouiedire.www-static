@@ -16,7 +16,7 @@ font-size:62.5%;
 }
 
 header img {max-width: 100%; max-height: 100%;margin-left: 2px;margin-bottom: 20px;}
-
+header .slogan {margin: -40px 0 40px 50px;font-size: 14px;font-size: 1.2rem;font-weight: bold;text-transform: uppercase;}
 ul
 {
 list-style-image:url('../img/files_black.png');
@@ -35,7 +35,7 @@ footer {margin:20px 0 0 15px;font-size: 14px;font-size: 1.4rem;}
 .number li {font-size: 15px;font-size: 1.5rem;}
 .donwload a {background-color:transparent;padding:4px;text-decoration: none;color: #000;}
 .number li a:hover {background-color: #fcfe04;padding:2px;}
-.donwload {margin:10px 0 0 14px;font-size: 15px;font-size: 1.5rem;text-transform: capitalize;}
+.donwload {margin:10px 0 0 14px;font-size: 15px;font-size: 1.5rem;text-transform: lowercase;}
 h1 a {color: #000;text-decoration: none;}
 h1 {font-size:16px;font-size: 1.6rem; text-transform: uppercase;margin: 0px 0 20px 16px;border-bottom: 1px dotted #000;}
 
